@@ -109,7 +109,7 @@ public class CruddemoApplication {
 		System.out.println("Creating 3 student objects ...");
 		Student tempStudent1 = new Student("Jenny","Doe","john@luv2code.com");
 		Student tempStudent2 = new Student("Terry","Public","mary@luv2code.com");
-		Student tempStudent3 = new Student("Bonita","Applebum","bonita@luv2code.com");
+		Student tempStudent3 = new Student("Bonit","Applebum","bonita@luv2code.com");
 		System.out.println("Saving the students ...");
 		studentDAO.save(tempStudent1);
 		studentDAO.save(tempStudent2);
